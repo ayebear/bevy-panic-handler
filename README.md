@@ -25,8 +25,9 @@ Check examples for more usages.
 
 ## Version Compatibility
 
-| Bevy   | `bevy-panic-handler` |
-| ------ | -------------------- |
-| 0.16.0 |                5.0.0 |
-| 0.15.0 |                4.0.0 |
-| 0.14.0 |                3.0.0 |
+| Bevy | `bevy-panic-handler` |
+| ---- | -------------------- |
+| 0.17 |                6.0.0 |
+| 0.16 |                5.0.0 |
+| 0.15 |                4.0.0 |
+| 0.14 |                3.0.0 |
