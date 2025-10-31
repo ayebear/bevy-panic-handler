@@ -39,7 +39,7 @@ impl PanicHandlerBuilder {
                         format!(
                             "Unhandled panic! at {}:\n{}",
                             info.location()
-                                .map_or("Unknown Location".to_owned(), ToString::to_string),
+                                .map_or_else(|| "Unknown Location".to_owned(), ToString::to_string),
                             info.payload().downcast_ref::<String>().map_or_else(
                                 || (*info.payload().downcast_ref::<&str>().unwrap_or(&"No Info"))
                                     .to_string(),
